@@ -15,7 +15,39 @@ root.withdraw()  # Hide the tkinter root window
 
 be = True
 while be:
-    valasz = simpledialog.askinteger("Kinyilatkoztatás", "Írd be a számot (0–31):")
+    valasz = simpledialog.askinteger("K8", """Írd be az általad kiválasztott kinyilatkoztatás számát:
+    0: kilépés, a program leáll
+    1: literálisan testvéremsz
+    2: csao papikám
+    3: 1.5 hónapja tettem le a kólát
+    4: 7-24 az utcán voltam
+    5: amúgy... ja
+    6: annyit drogoztunk...
+    7: baszni is szeretek amúgy
+    8: bazdmeeg
+    9: bulizok, meg baszok
+    10: kéttannyelvű C1-es angol nyelvvizsga
+    11: *catchy beatbox*
+    12: bennem van ez a csibész vér
+    13: drogdílerkedés miatt hagytad ott az egyetemet
+    14: literálisan hangyafasznyi fájdalom
+    15: fenegyerek vagyok
+    16: frontin, xanax, spuri, eki
+    17: hú, cigány...
+    18: literálisan hugy, szar
+    19: hülyék vagyunk
+    20: KDT jelentése
+    21: *nagyon összeszedett gondolatmenet*
+    22: mindenki kis pancser
+    23: nem... igen... igen
+    24: paprikasprézgetnek a kislányok
+    25: rocksztárok vagyunk
+    26: rocksztár vagyok
+    27: meg kell baszni a színpadot
+    28: szüleiddel élsz?
+    29: föl van szopva a faszom tövig
+    30: uuuuuu
+    31: bónusz""")
     if valasz is None:
         break
     if valasz == 0:
